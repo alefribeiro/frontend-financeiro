@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import {
     NavigationMenu,
@@ -14,7 +15,7 @@ export function NavBar() {
                         <Link href="/">Início</Link>
                     </NavigationMenuLink>
                     <NavigationMenuLink asChild>
-                        <Link href="/Fornecedores">Fornecedores</Link>
+                        <Link href="/fornecedores">Fornecedores</Link>
                     </NavigationMenuLink>
                 </NavigationMenuList>
             </NavigationMenu>
