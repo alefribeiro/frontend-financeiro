@@ -1,13 +1,11 @@
 "use client";
-import { Button } from "@/components/ui/button";
+
+import { Container } from "@/components/Container";
 
 export default function Home() {
-    function handleClick() {
-        console.log("Você clicou no botão!");
-    }
     return (
-        <div className="">
-            <Button onClick={handleClick}>Me clique.</Button>
-        </div>
+        <Container>
+            <h1>Conteúdo</h1>
+        </Container>
     );
 }
