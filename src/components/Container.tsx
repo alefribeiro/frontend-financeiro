@@ -7,7 +7,7 @@ interface ContairnerProps extends ComponentProps<"div"> {
 
 export function Container({ children, className }: ContairnerProps) {
     return (
-        <div className={cn("shadow-default rounded-sm py-4 px-5", className)}>
+        <div className={cn("shadow-default rounded-xs py-4 px-5", className)}>
             {children}
         </div>
     );
