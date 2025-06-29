@@ -3,7 +3,6 @@ import { DisplayInformation } from "@/components/DisplayInformation";
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
